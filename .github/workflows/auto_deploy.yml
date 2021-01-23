@@ -34,5 +34,5 @@ jobs:
         run: npm install -g surge
       
       - name: deploying using surge
-        run: surge ./ decisive-bead.surge.sh --token $ {{  secrets.SURGE_TOKEN }}
+        run: surge ./ decisive-bead.surge.sh --token ${{  secrets.SURGE_TOKEN }}
         
